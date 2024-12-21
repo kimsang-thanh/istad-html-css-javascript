@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="../">Home page &rarr;</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- table -->
+      <table border="1" width="70%" bgcolor="whitesmoke">
+        <thead>
+          <tr>
+            <th rowspan="2">Name</th>
+            <th rowspan="2">ID</th>
+            <th colspan="2">Membership Date</th>
+            <th rowspan="2">Balance</th>
+          </tr>
+          <tr>
+            <th>Joined</th>
+            <th>Canceled</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Kimsang</td>
+            <td>1001</td>
+            <td>12/12/2002</td>
+            <td>12/12/2022</td>
+            <td>1000$</td>
+          </tr>
+          <tr>
+            <td>Thida</td>
+            <td>1002</td>
+            <td>12/01/2003</td>
+            <td>12/20/2023</td>
+            <td>500$</td>
+          </tr>
+          <tr>
+            <td>Nha</td>
+            <td>1003</td>
+            <td>23/02/2004</td>
+            <td>18/24/2024</td>
+            <td>500$</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4">Total Balance</td>
+            <td>2000$</td>
+          </tr>
+        </tfoot>
+      </table>
+    </main>
+  </body>
+</html>

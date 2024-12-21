@@ -14,6 +14,29 @@
         property: 'value';
       } */
 
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: sans-serif;
+      }
+
+      section {
+        padding: 15px;
+      }
+
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+
+        background-color: #96f2d7;
+        padding: 2rem 0;
+      }
+
       small {
         color: rgb(0, 34, 255);
       }
@@ -28,6 +51,10 @@
         color: dodgerblue;
         font-size: 23px;
       }
+
+      div {
+        padding: 15px;
+      }
     </style>
   </head>
 
@@ -39,8 +66,13 @@
         <a href="https://www.hyperui.dev/" target="_blank">Hyper UI</a>
 
         <!-- Internal Link -->
-        <a href="./html/icon-card">card page &rarr;</a>
-        <a href="./html/icons">icon page &rarr;</a>
+        <a href="./html/icon-card">Card page </a>
+        <a href="./html/icons">Icon page </a>
+
+        <!-- Internal pages -->
+        <a href="./html/list">List page</a>
+        <a href="./html/table">Table page</a>
+        <a href="./html/form">Form page</a>
       </nav>
     </header>
 
@@ -151,65 +183,68 @@
       </section>
     </main>
 
-    <!-- display image using link url -->
-    <img
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_iRBHgtWGybXDIbq0z0Asov_YSEw7HthzFw&s"
-      alt="cat image"
-    />
+    <div>
+      <!-- display image using link url -->
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_iRBHgtWGybXDIbq0z0Asov_YSEw7HthzFw&s"
+        alt="cat image"
+      />
 
-    <!-- display image using file path -->
-    <img src="./images/image.png" alt="travel time" />
+      <!-- display image using file path -->
+      <img src="./images/image.png" alt="travel time" />
 
-    <!-- animation image -->
-    <img src="./images/mobile-login.gif" alt="animation image login" />
+      <!-- animation image -->
+      <img src="./images/mobile-login.gif" alt="animation image login" />
 
-    <!-- auto closing -->
-    <!-- <h1>hello html</h1> -->
+      <!-- auto closing -->
+      <!-- <h1>hello html</h1> -->
 
-    <!-- self closing tag -->
-    <!-- <img src="img/image.png" alt="self closing tag" /> -->
+      <!-- self closing tag -->
+      <!-- <img src="img/image.png" alt="self closing tag" /> -->
 
-    <!-- heading tag -->
-    <!-- <h1>1. Get started with Tailwind CSS</h1>
+      <!-- heading tag -->
+      <!-- <h1>1. Get started with Tailwind CSS</h1>
     <h2>1.1. Installation</h2>
     <h3>1.1.1 Install Tailwind CSS</h3>
     <h3>1.1.2 Configure your template paths</h3>
     <h3>1.1.3 Add the Tailwind directives to your CSS</h3>
     <h2>1.2 What to read next</h2> -->
 
-    <!-- example -->
-    <!-- <h4>heading tag h4</h4>
+      <!-- example -->
+      <!-- <h4>heading tag h4</h4>
     <h5>heading tag h5</h5>
     <h6>heading tag h6</h6> -->
 
-    <h1>Gets started with Tailwind CSS</h1>
-    <p>
-      <strong>Tailwind CSS</strong> works by scanning all of your HTML files,
-      JavaScript components, and any other templates for class names, generating
-      the corresponding styles and then writing them to a static CSS file.
-    </p>
+      <h1>Gets started with Tailwind CSS</h1>
+      <p>
+        <strong>Tailwind CSS</strong> works by scanning all of your HTML files,
+        JavaScript components, and any other templates for class names,
+        generating the corresponding styles and then writing them to a static
+        CSS file.
+      </p>
 
-    <!-- small -->
-    <small>Hello small tag</small>
+      <!-- small -->
+      <small>Hello small tag</small>
 
-    <!-- subscript tag -->
-    <p>H<sub>2</sub>O</p>
+      <!-- subscript tag -->
+      <p>H<sub>2</sub>O</p>
 
-    <!-- supper script -->
-    <p>(a-b) <sup>2</sup> = (a+b) (a-b)</p>
+      <!-- supper script -->
+      <p>(a-b) <sup>2</sup> = (a+b) (a-b)</p>
 
-    <!-- insert -->
-    <ins>Underline</ins>
+      <!-- insert -->
+      <ins>Underline</ins>
 
-    <!-- delete -->
-    <p><del>102$</del> -> 100$</p>
+      <!-- delete -->
+      <p><del>102$</del> -> 100$</p>
 
-    <!-- inline element -->
-    <strong>Use strong tag : </strong>
-    <b>Use b tag</b>
+      <!-- inline element -->
+      <strong>Use strong tag : </strong>
+      <b>Use b tag</b>
 
-    <!-- block element -->
-    <p>Hello block element</p>
+      <!-- block element -->
+      <p>Hello block element</p>
+    </div>
   </body>
 </html>
 

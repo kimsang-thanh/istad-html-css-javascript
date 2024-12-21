@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+
+    <style>
+      div {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="../">Home page &rarr;</a>
+      </nav>
+    </header>
+    <main>
+      <!-- form -->
+      <form action="#">
+        <!-- username -->
+        <div>
+          <label for="username">Username</label>
+          <input
+            type="text"
+            id="username"
+            placeholder="Enter username"
+            required
+          />
+        </div>
+
+        <!-- password -->
+        <div>
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            maxlength="5"
+            placeholder="Enter password"
+            required
+          />
+        </div>
+
+        <!-- email -->
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter email" required />
+        </div>
+
+        <!-- file -->
+        <div>
+          <label for="file">Choose profile</label> <br />
+          <input type="file" id="file" multiple required />
+        </div>
+
+        <!-- radio -->
+        <div>
+          <label for="gender">Gender</label>
+
+          <div>
+            <input type="radio" name="gender" id="female" />
+            <label for="female">Female</label>
+          </div>
+          <div>
+            <input type="radio" name="gender" id="male" />
+            <label for="male">Male</label>
+          </div>
+        </div>
+
+        <!-- checkbox -->
+        <div>
+          <label for="hobby">Hobby</label> <br />
+          <!-- reading -->
+          <input type="checkbox" name="hobby" id="reading" />
+          <label for="reading">Reading</label>
+          <!-- research -->
+          <input type="checkbox" name="hobby" id="research" />
+          <label for="research">Research</label>
+        </div>
+
+        <!-- select -->
+        <div>
+          <label for="province">Where are you from?</label> <br />
+          <select name="province" id="province">
+            <option value="" selected disabled>Choose province/city</option>
+            <option value="">Phnom Penh</option>
+            <option value="">Kampong Cham</option>
+            <option value="">Kampong Tom</option>
+          </select>
+        </div>
+
+        <!-- textarea -->
+        <div>
+          <label for="messaage">Message</label>
+          <textarea name="messaage" id="messaage" rows="3">textarea</textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
